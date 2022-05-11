@@ -1,4 +1,4 @@
-import { getDogs } from './fetch-utils.js';
+import { getDog, getDogs } from './fetch-utils.js';
 import { renderDogCard } from './render-utils.js';
 
 
@@ -17,4 +17,5 @@ async function loadData() {
     }
 }
 
+//loads data to home page
 loadData();

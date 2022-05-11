@@ -17,3 +17,4 @@ export async function getDog(id) {
     // and return the response
     return response.data;    
 }
+
